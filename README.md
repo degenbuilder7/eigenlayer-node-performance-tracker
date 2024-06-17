@@ -2,6 +2,8 @@
 
 Welcome to the EigenLayer AVS Node Performance Tracker! This project is dedicated to tracking and monitoring the performance of EigenLayer operators’ AVS nodes. Our goal is to provide comprehensive insights into node performance metrics, ensuring transparency and reliability for all users.
 
+![image](https://github.com/degenbuilder7/eigenlayer-node-performance-tracker/assets/94379406/ad7221fb-1add-491b-9888-61e1940c6aa0)
+
 ## Realtime features
 
 We offer detailed insights into node performance metrics, enhancing transparency and reliability. Our platform is designed to ensure that operators have access to real-time and historical data, enabling them to maintain optimal performance and quickly address any issues.
