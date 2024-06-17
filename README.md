@@ -12,7 +12,8 @@ We offer detailed insights into node performance metrics, enhancing transparency
 
 - **Performance Metrics**: Track critical metrics such as uptime, response time, and node health.
 - **Real-Time Monitoring**: Access up-to-date performance data to ensure your nodes are running smoothly.
-- **Historical Data**: View and analyze past performance trends to identify patterns and make informed decisions.
+- **Historical Data using Dune Analytics**: View and analyze past performance trends to identify patterns and make informed decisions.
+- **Dune AVS API***: We are utilising Dune AVS Api to fetch the Operator<>AVS related data realtime.
 - **Documentation**: Comprehensive user guides and API documentation to help you get started and utilize all features effectively.
 
 ## Advanced Features
@@ -24,6 +25,8 @@ We offer detailed insights into node performance metrics, enhancing transparency
 ## Getting Started
 
 To get started with the EigenLayer AVS Node Performance Tracker, follow our detailed [user guide](#) and [API documentation](#). These resources will walk you through the setup process and help you make the most of our platform's features.
+
+## Demo Video
 
 ## Contributing
 
