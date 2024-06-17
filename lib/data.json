@@ -1,0 +1,45 @@
+{
+    "modules": [
+      {
+        "PufferModule": "PUFFER_MODULE_0",
+        "PufferModuleAddress": "0xe60cA7AbF24De99aF64e7d9057659aE2dBC2eB2C",
+        "RestakingOperatorAddress": "0x4d7C3fc856AB52753B91A6c9213aDF013309dD25"
+      },
+      {
+        "PufferModule": "PUFFER_MODULE_1",
+        "PufferModuleAddress": "0xf831B40E80Ffd364B0a08619666Ee09df3A3F73a",
+        "RestakingOperatorAddress": "0x175da1e44c8Fbf124714a3bBA5dc18a7E65664d6"
+      },
+      {
+        "PufferModule": "PUFFER_MODULE_2",
+        "PufferModuleAddress": "0xf5d31b441B8f1C53C7c5bEb80089fEC228C531fb",
+        "RestakingOperatorAddress": "0x73F23013c5a4C209de945CDC58595A4d53d23084"
+      },
+      {
+        "PufferModule": "PUFFER_MODULE_3",
+        "PufferModuleAddress": "0xA4C78FdAE426D16baA010aCedeeC87706ac3f76B",
+        "RestakingOperatorAddress": "0x59639AEEe35c4108923FD16E66055b347fBeaDd2"
+      },
+      {
+        "PufferModule": "PUFFER_MODULE_4",
+        "PufferModuleAddress": "0xBb43dcAfA77fB5D1888A087ce6A30c287981c391",
+        "RestakingOperatorAddress": "0xdd6859450e80665dB854022E85FB0Ed2F0240CB9"
+      },
+      {
+        "PufferModule": "PUFFER_MODULE_5",
+        "PufferModuleAddress":"0xbCa580b952801236322734bB146f3E27894f736e",
+        "RestakingOperatorAddress":"0xE48E7102c03812DFA1FDF0bBE6DbBA6Dc70b0f33"
+      },
+      {
+        "PufferModule": "PUFFER_MODULE_6",
+        "PufferModuleAddress":"0x48C09CAD9d785E21210A4E84fcb0FF5A3a73c58D",
+        "RestakingOperatorAddress":"0x8c81d590CC94CA2451C4BDe24c598193da74a575"
+      },
+      {
+        "PufferModule": "PUFFER_MODULE_7",
+        "PufferModuleAddress":"0x5FDe1b2d371243eDcA74B77082d40E01C5F15b31",
+        "RestakingOperatorAddress":"0x4d7C3fc856AB52753B91A6c9213aDF013309dD25"
+      }
+    ]
+  }
+  
