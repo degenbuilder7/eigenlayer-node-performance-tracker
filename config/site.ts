@@ -12,7 +12,11 @@ export const siteConfig = {
     {
       title: "PufferData",
       href: "/pufferdata"
-    }
+    },
+    {
+      title: "Operator",
+      href: "/operator"
+    },
   ],
   links: {
     twitter: "https://twitter.com/shadcn",
