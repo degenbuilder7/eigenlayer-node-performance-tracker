@@ -21,9 +21,13 @@ export const siteConfig = {
       title: "AVS",
       href: "/avs"
     },
+    {
+      title: "Search Operator of an AVS",
+      href: "/searchoperatorofavs"
+    }
   ],
   links: {
-    twitter: "https://twitter.com/shadcn",
+    twitter: "https://twitter.com/soldegenbuilder7",
     github: "https://github.com/degenbuilder7/eigenlayer-node-performance-tracker",
     docs: "https://ui.shadcn.com",
   },

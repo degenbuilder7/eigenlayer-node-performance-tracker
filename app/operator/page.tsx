@@ -2,7 +2,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Doughnut } from 'react-chartjs-2';
 
-
+// This typewriter effect is so smooth :)
 import { TypewriterEffectSmooth } from '@/components/ui/typewriter-effect';
 
 const TypewriterEffectSmoothDemo = () => {
@@ -10,7 +10,6 @@ const TypewriterEffectSmoothDemo = () => {
       {
           text: " Enter",
       },
-     
       {
           text: "Operator",
           className: "text-purple-500 dark:text-purple-500",

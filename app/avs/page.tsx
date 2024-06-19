@@ -42,7 +42,7 @@ const AVS = () => {
     const options = {
       method: 'GET',
       headers: {
-        'X-DUNE-API-KEY': '<x-dune-api-key>'
+        'X-DUNE-API-KEY': process.env.NEXT_PUBLIC_APP_DUNE_API_KEY!
       }
     };
 
