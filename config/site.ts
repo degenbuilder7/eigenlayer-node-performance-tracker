@@ -17,6 +17,10 @@ export const siteConfig = {
       title: "Operator",
       href: "/operator"
     },
+    {
+      title: "AVS",
+      href: "/avs"
+    },
   ],
   links: {
     twitter: "https://twitter.com/shadcn",
