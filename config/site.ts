@@ -24,6 +24,10 @@ export const siteConfig = {
     {
       title: "Search Operator of an AVS",
       href: "/searchoperatorofavs"
+    },
+    {
+      title: "Track with MoveSDK",
+      href: "/fetchmovedata"
     }
   ],
   links: {
