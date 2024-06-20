@@ -38,7 +38,7 @@ const AVS = () => {
   const [error, setError] = useState('');
   const chartRef = useRef(null);
 
-  const fetchAvsData = (address) => {
+  const fetchAvsData = (address: string) => {
     const options = {
       method: 'GET',
       headers: {
@@ -49,6 +49,7 @@ const AVS = () => {
     fetch('https://api.dune.com/api/v1/eigenlayer/avs-stats', options)
       .then(response => response.json())
       .then(data => {
+        // @ts-ignore
         const result = data.result.rows.find(row => row.avs_contract_address === address);
         if (result) {
           setAvsData(result);
@@ -115,7 +116,7 @@ const AVS = () => {
     <h1 className="text-2xl font-bold mb-6 py-[30px]">
     <TypewriterEffectSmoothDemo/>
     </h1>
-    <button className="absolute top-[120px] right-[30px] border border-2 border-white text-xl text-purple-500 px-4 py-2 rounded-lg font-medium gradient-border">
+    <button className="absolute top-[120px] right-[30px] border-2 border-white text-xl text-purple-500 px-4 py-2 rounded-lg font-medium gradient-border">
       <a href="/avs1">AVS metadata</a>
     </button>
   </div>
@@ -125,7 +126,7 @@ const AVS = () => {
           placeholder="Enter AVS contract address"
           value={avsAddress}
           onChange={handleInputChange}
-     className="rounded-none relative block w-[350px] h-[50px] px-3 py-2 border placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm border-blue-500 border-4"
+     className="relative block h-[50px] w-[350px] rounded-none rounded-t-md border border-4 border-blue-500 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-blue-500 focus:outline-none focus:ring-blue-500 sm:text-sm"
         />
         <button
           onClick={handleFetchData}

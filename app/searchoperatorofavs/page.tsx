@@ -80,7 +80,7 @@ function Mapping() {
             placeholder="Enter operator or AVS address"
             value={address}
             onChange={handleInputChange}
-            className="rounded-none relative block w-[350px] h-[50px] px-3 py-2 border placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm border-blue-500 border-4"
+            className="relative block h-[50px] w-[350px] rounded-none rounded-t-md border-4 border-blue-500 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-blue-500 focus:outline-none focus:ring-blue-500 sm:text-sm"
           />
         </div>
         <button
