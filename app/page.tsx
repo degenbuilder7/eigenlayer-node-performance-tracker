@@ -211,7 +211,7 @@ export default function LandingPage() {
   )
 }
 
-function ActivityIcon(props) {
+function ActivityIcon(props : any) {
   return (
     <svg
       {...props}
@@ -231,7 +231,7 @@ function ActivityIcon(props) {
 }
 
 
-function BarChartIcon(props) {
+function BarChartIcon(props : any) {
   return (
     <svg
       {...props}
@@ -253,7 +253,7 @@ function BarChartIcon(props) {
 }
 
 
-function BellIcon(props) {
+function BellIcon(props : any) {
   return (
     <svg
       {...props}
@@ -274,7 +274,7 @@ function BellIcon(props) {
 }
 
 
-function CalendarDaysIcon(props) {
+function CalendarDaysIcon(props : any) {
   return (
     <svg
       {...props}
@@ -303,7 +303,7 @@ function CalendarDaysIcon(props) {
 }
 
 
-function GaugeIcon(props) {
+function GaugeIcon(props : any) {
   return (
     <svg
       {...props}
@@ -324,7 +324,7 @@ function GaugeIcon(props) {
 }
 
 
-function LayersIcon(props) {
+function LayersIcon(props : any) {
   return (
     <svg
       {...props}
@@ -346,7 +346,7 @@ function LayersIcon(props) {
 }
 
 
-function MountainIcon(props) {
+function MountainIcon(props : any) {
   return (
     <svg
       {...props}

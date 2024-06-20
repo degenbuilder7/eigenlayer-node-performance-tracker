@@ -16,6 +16,9 @@ const TypewriterEffectSmoothDemo = () => {
   );
 };
 
+// This component fetches live move data from the mainnet ,
+// Endpoint: https://aptos.dev/en/build/apis/fullnode-rest-api-reference#tag/accounts/get/accounts/{address}
+
 const Move = () => {
   const [address, setAddress] = useState('');
   const [resourceType, setResourceType] = useState('');
@@ -23,7 +26,7 @@ const Move = () => {
   const [data, setData] = useState(null);
   const [error, setError] = useState('');
 
-  const fetchData = async (endpoint) => {
+  const fetchData = async (endpoint: any) => {
     try {
       const response = await fetch(endpoint);
       if (!response.ok) {

@@ -1,9 +1,10 @@
-
+// @ts-nocheck
 "use client";
 
 import React, { useState, useEffect, useRef } from 'react';
 import { Doughnut } from 'react-chartjs-2';
-import Chart from 'chart.js/auto';
+import {Chart , ArcElement} from 'chart.js';
+import 'chart.js/auto';
 
 import { TypewriterEffectSmooth } from '@/components/ui/typewriter-effect';
 
@@ -22,6 +23,9 @@ const TypewriterEffectSmoothDemo = () => {
     },
 
   ];
+
+  Chart.register(ArcElement);
+
   return (
       <div className="flex flex-col items-center justify-center h-[5rem] mt-[40px]">
           <TypewriterEffectSmooth words={words} />
@@ -117,7 +121,7 @@ const AVS = () => {
     <TypewriterEffectSmoothDemo/>
     </h1>
     <button className="absolute top-[120px] right-[30px] border-2 border-white text-xl text-purple-500 px-4 py-2 rounded-lg font-medium gradient-border">
-      <a href="/avs1">AVS metadata</a>
+      <a href="/avsmetadata">AVS metadata</a>
     </button>
   </div>
       <div className="flex flex-col items-center mb-6">
@@ -126,7 +130,7 @@ const AVS = () => {
           placeholder="Enter AVS contract address"
           value={avsAddress}
           onChange={handleInputChange}
-     className="relative block h-[50px] w-[350px] rounded-none rounded-t-md border border-4 border-blue-500 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-blue-500 focus:outline-none focus:ring-blue-500 sm:text-sm"
+     className="relative block h-[50px] w-[350px] rounded-none rounded-t-md border-4 border-blue-500 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-blue-500 focus:outline-none focus:ring-blue-500 sm:text-sm"
         />
         <button
           onClick={handleFetchData}

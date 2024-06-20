@@ -1,3 +1,4 @@
+// @ts-nocheck
 "use client";
 
 import React, { useEffect, useState } from 'react';
@@ -61,7 +62,7 @@ const Operator2 = () => {
                 type="text"
                 autoComplete="operatorAddress"
                 required
-                className="rounded-none relative block w-full px-3 py-2 border placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm border-blue-500-500 border-2"
+                className="rounded-none relative block w-full px-3 py-2 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm border-blue-500-500 border-2"
                 placeholder="Enter Operator Address"
                 value={operatorAddressInput}
                 onChange={handleInputChange}

@@ -1,5 +1,7 @@
+// @ts-nocheck
 "use client";
 import React, { useEffect, useState } from 'react';
+import 'chart.js/auto';
 
 const AVSMetadata = () => {
   const [avsAddressInput, setAvsAddressInput] = useState('');
@@ -22,6 +24,7 @@ const AVSMetadata = () => {
             throw new Error('Failed to fetch AVS metadata');
           }
           const data = await response.json();
+          console.log(data,"avs metadata")
           const avsMetadata = data.result.rows.find(item => item.avs_contract_address === avsAddress);
           setAvsData(avsMetadata);
         } catch (error) {
@@ -60,7 +63,7 @@ const AVSMetadata = () => {
                 type="text"
                 autoComplete="avsAddress"
                 required
-                className="rounded-none relative block w-full px-3 py-2 border placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm border-blue-500-500 border-2"
+                className="rounded-none relative block w-full px-3 py-2 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm border-blue-500-500 border-2"
                 placeholder="Enter AVS Address"
                 value={avsAddressInput}
                 onChange={handleInputChange}

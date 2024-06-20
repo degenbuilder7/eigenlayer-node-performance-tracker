@@ -1,6 +1,8 @@
+// @ts-nocheck
 "use client";
 import React, { useState, useEffect, useRef } from 'react';
 import { Doughnut } from 'react-chartjs-2';
+import 'chart.js/auto';
 
 // This typewriter effect is so smooth :)
 import { TypewriterEffectSmooth } from '@/components/ui/typewriter-effect';
@@ -109,7 +111,7 @@ function Operator() {
     <div className="min-h-screen bg-black text-white flex flex-col items-center">
     <div className="flex justify-between items-center">
     <h1 className="text-2xl font-bold mb-6 py-[30px]"><TypewriterEffectSmoothDemo/></h1>
-    <button className="absolute top-[120px] right-[30px] border border-2 border-white text-xl text-purple-500 px-4 py-2 rounded-lg font-medium gradient-border">
+    <button className="absolute top-[120px] right-[30px]  border-2 border-white text-xl text-purple-500 px-4 py-2 rounded-lg font-medium gradient-border">
       <a href="/operatormetadata">Operator metadata</a>
     </button>
   </div>
@@ -120,7 +122,7 @@ function Operator() {
           placeholder="Enter operator contract address"
           value={operatorAddress}
           onChange={handleInputChange}
-     className="rounded-none relative block w-[350px] h-[50px] px-3 py-2 border placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm border-blue-500 border-4"
+     className="rounded-none relative block w-[350px] h-[50px] px-3 py-2  placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm border-blue-500 border-4"
         />
         <button
           onClick={handleFetchData}
