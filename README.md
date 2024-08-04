@@ -13,7 +13,7 @@ We offer detailed insights into node performance metrics, enhancing transparency
 - **Performance Metrics**: Track critical metrics such as uptime, response time, and node health.
 - **Real-Time Monitoring**: Access up-to-date performance data to ensure your nodes are running smoothly.
 - **Historical Data using Dune Analytics**: View and analyze past performance trends to identify patterns and make informed decisions.
-- **Dune AVS API***: We are utilising Dune AVS Api to fetch the Operator<>AVS related data realtime.
+- **Dune AVS API***: We are utilising Dune AVS Api to fetch the Operator<>AVS mapping related data in realtime.
 - **Documentation**: Comprehensive user guides and API documentation to help you get started and utilize all features effectively.
 
 ## Advanced Features
@@ -24,13 +24,13 @@ We offer detailed insights into node performance metrics, enhancing transparency
 
 ## Getting Started
 
-To get started with the EigenLayer AVS Node Performance Tracker, follow our detailed [user guide](#) and [API documentation](#). These resources will walk you through the setup process and help you make the most of our platform's features.
+To get started with the EigenLayer AVS Node Performance Tracker, follow our detailed [API documentation](https://eigenlayer-node-performance-trac.gitbook.io/). This doc will walk you through the setup process and help you make the most of our platform's features.
 
 ## Demo Video
 
 ## Contributing
 
-We welcome contributions from the community! If you have suggestions for new features or improvements, please feel free to submit a pull request or open an issue on our [GitHub repository](#).
+We welcome contributions from the community! If you have suggestions for new features or improvements, please feel free to submit a pull request or open an issue on our [GitHub repository](https://github.com/degenbuilder7/eigenlayer-node-performance-tracker).
 
 ## License
 
@@ -38,6 +38,6 @@ This project is licensed under the MIT License. See the [LICENSE](#) file for mo
 
 ## Contact
 
-For any questions or support, please contact us at [support@example.com](mailto:support@example.com).
+For any questions or support, please create an issue on this https://github.com/degenbuilder7/eigenlayer-node-performance-tracker/issues with a detailed description.
 
 Thank you for choosing the EigenLayer AVS Node Performance Tracker. We look forward to helping you maintain optimal performance and reliability for your AVS nodes!
